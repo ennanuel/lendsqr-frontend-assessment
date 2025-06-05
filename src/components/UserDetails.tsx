@@ -22,7 +22,7 @@ export default function UserDetails({ user }: UserDetailsProps) {
                 </div>
             </div>
             <div className="user-tier">
-                <p className="tier-title">User's Tier</p>
+                <p className="tier-title">User&apos;s Tier</p>
                 <div className="stars">
                     {
                         tierStarImages.map((image, index) => (
