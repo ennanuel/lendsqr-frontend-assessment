@@ -17,7 +17,7 @@ export default function Header ({ showFullSidebar, expandSidebar, collapseSideba
         <header className="header">
             <div className="left-container">
                 <a href="#">
-                    <Image src="/logo.png" alt="Lendsqr logo" width={200} height={30} className="logo" />
+                    <Image src="/logo.svg" alt="Lendsqr logo" width={200} height={30} className="logo" />
                 </a>
             </div>
             <div className="right-container">
