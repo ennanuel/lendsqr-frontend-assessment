@@ -45,58 +45,6 @@ button {
     cursor: pointer;
 }
 
-.flex {
-    display: flex;
-}
-.flex-row {
-    flex-direction: row;
-}
-.flex-col {
-    flex-direction: column;
-}
-.justify-start {
-    justify-content: flex-start;
-}
-.justify-end {
-    justify-content: flex-end;
-}
-.justify-center {
-    justify-content: center;
-}
-.justify-between {
-    justify-content: space-between;
-}
-.justify-evenly {
-    justify-content: space-evenly;
-}
-.justify-around {
-    justify-content: space-around;
-}
-.justify-stretch {
-    justify-content: stretch;
-}
-.align-start {
-    align-items: flex-start;
-}
-.align-end {
-    align-items: flex-end;
-}
-.align-center {
-    align-items: center;
-}
-.align-between {
-    align-items: space-between;
-}
-.align-evenly {
-    align-items: space-evenly;
-}
-.align-around {
-    align-items: space-around;
-}
-.align-stretch {
-    align-items: stretch;
-}
-
 .font-avenir {
     font-family: 'Avenir Next', Arial;
 }
@@ -111,12 +59,6 @@ button {
 }
 .uppercase {
     text-transform: uppercase;
-}
-.text-main {
-    color: $main-color;
-}
-.text-secondary {
-    color: $secondary-color;
 }
 
 
