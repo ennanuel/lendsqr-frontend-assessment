@@ -65,7 +65,7 @@ export function generatePaginationPages(maxPageLength: number, currentPage: numb
     while(i < MAX_PAGES_TO_SHOW) {
         if(i > maxPageLength) break;
         const page = start + i;
-        let result = {
+        const result = {
             page: page,
             isPage: true,
             content: String(page),
