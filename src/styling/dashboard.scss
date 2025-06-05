@@ -75,6 +75,24 @@
         grid-template-columns: 1fr;
         grid-template-rows: repeat(4, 1fr);
         gap: 16px;
+
+        .dashboard-stat {
+            flex-direction: row;
+            align-items: center;
+        }
+    }
+
+    @media (max-width: $breakpoint-xs) {
+        gap: 20px;
+
+        .dashboard-stat {
+            padding-top: 16px;
+            padding: 20px;
+
+            p {
+                gap: 4px;
+            }
+        }
     }
 }
 
@@ -331,19 +349,17 @@
         .filters {
             position: relative;
             z-index: 2;
-            padding: 30px 20px;
-            padding-bottom: 28px;
             width: 100%;
             max-width: 270px;
             display: flex;
             flex-direction: column;
-            gap: 30px;
             border: 1px solid rgba($secondary-color, 0.14);
             background-color: $foreground;
             border-radius: 4px;
             overflow-y: auto;
 
             .title-and-close {
+                padding: 30px 20px;
                 display: none;
                     
                 h2 {
@@ -383,6 +399,7 @@
 
             .filter-inputs-container {
                 flex: 1;
+                padding: 0 20px;
                 display: flex;
                 flex-direction: column;
                 gap: 20px;
@@ -440,6 +457,8 @@
                 position: sticky;
                 bottom: 0;
                 left: 0;
+                padding: 30px 20px;
+                padding-bottom: 28px;
                 display: flex;
                 align-items: center;
                 gap: 14px;
@@ -596,6 +615,7 @@
         }
 
         .filters-container {
+            z-index: 20;
                 
             .filters {
                 position: fixed;
