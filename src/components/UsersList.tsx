@@ -38,7 +38,7 @@ export default function UsersList({ users }: UsersProps) {
     return (
         <tbody>
             {
-                users.map(({ _id, organization, firstName, lastName, email, phone, dateJoined, status }, index) => (
+                users.map(({ _id, organization, firstName, lastName, email, phone, dateJoined, status }) => (
                     <tr key={email}>
                         <td onClick={() => navigateToUser(_id)}>{organization}</td>
                         <td onClick={() => navigateToUser(_id)}>{firstName} {lastName}</td>
