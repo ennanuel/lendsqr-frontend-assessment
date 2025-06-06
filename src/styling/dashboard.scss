@@ -360,6 +360,7 @@
 
             .title-and-close {
                 padding: 30px 20px;
+                padding-bottom: 0;
                 display: none;
                     
                 h2 {
@@ -399,7 +400,8 @@
 
             .filter-inputs-container {
                 flex: 1;
-                padding: 0 20px;
+                padding: 30px 20px;
+                padding-bottom: 0;
                 display: flex;
                 flex-direction: column;
                 gap: 20px;
